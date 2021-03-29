@@ -22,5 +22,12 @@
     "imdbRating": "int",
     "imdbVotes": "int",
     "active": "boolean"
+  },
+  "Post": {
+    "title": "string",
+    "extract": "string",
+    "author": "string",
+    "date": "date",
+    "published": "boolean"
   }
 }
