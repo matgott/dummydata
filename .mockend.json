@@ -28,6 +28,7 @@
     "extract": "string",
     "author": "string",
     "date": "date",
+    "tags": "string[]",
     "published": "boolean"
   }
 }
