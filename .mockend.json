@@ -4,11 +4,12 @@
   },
   "Mission": {
     "designation": "string",
-    "crew": "Crew[]",
+    "crews": "Crew[]",
     "startDate": "date",
     "endDate": "date"
   },
   "Crew": {
-    "name": "string" 
+    "name": "string",
+    "mission": "Mission"
   }
 }
