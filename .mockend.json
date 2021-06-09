@@ -1,8 +1,8 @@
 {
-  "astronauts": {
+  "Astronauts": {
     "name": "string"
   },
-  "missions": {
+  "Missions": {
     "designation": "string",
     "crew": "int[]",
     "startDate": "date",
