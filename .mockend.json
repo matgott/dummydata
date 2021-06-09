@@ -8,5 +8,7 @@
     "startDate": "date",
     "endDate": "date"
   },
-  "Crew": {}
+  "Crew": {
+    "name": "string"
+  }
 }
