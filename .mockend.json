@@ -1,15 +1,13 @@
 {
-  "Astronaut": {
-    "name": "string"
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
   },
-  "Mission": {
-    "designation": "string",
-    "crews": "Crew[]",
-    "startDate": "date",
-    "endDate": "date"
-  },
-  "Crew": {
-    "name": "string",
-    "mission": "Mission"
+  "Comment": {
+    "body": "string",
+    "post": "Post"
   }
 }
