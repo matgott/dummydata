@@ -9,6 +9,6 @@
     "endDate": "date"
   },
   "Crew": {
-    
+    "name": "string" 
   }
 }
