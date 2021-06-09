@@ -4,8 +4,9 @@
   },
   "Mission": {
     "designation": "string",
-    "crew": "int[]",
+    "crew": "Crew[]",
     "startDate": "date",
     "endDate": "date"
-  }
+  },
+  "Crew": {}
 }
