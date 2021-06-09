@@ -1,34 +1,11 @@
 {
-  "Movie": {
-    "imdbID": "string",
-    "title": "string",
-    "plot": "string",
-    "type": "string",
-    "genre": "string[]",
-    "director": "string",
-    "writers": "string[]",
-    "actors": "string[]",
-    "language": "string[]",
-    "country": "string[]",
-    "countryCode2": "string[]",
-    "countryCode3": "string[]",
-    "year": "int",
-    "released": "date",
-    "runtime": "string",
-    "rated": "string",
-    "awards": "string",
-    "poster": "string",
-    "metascore": "int",
-    "imdbRating": "int",
-    "imdbVotes": "int",
-    "active": "boolean"
+  "astronauts": {
+    "name": "string"
   },
-  "Post": {
-    "title": "string",
-    "extract": "string",
-    "author": "string",
-    "date": "date",
-    "tags": "string[]",
-    "published": "boolean"
+  "missions": {
+    "designation": "string",
+    "crew": "int[]",
+    "startDate": "date",
+    "endDate": "date"
   }
 }
